@@ -25,7 +25,7 @@
  * @see https://www.youtube.com/watch?v=iuEtQqC-Sqo "EBU R128 Introduction - Florian Camerer"
  * @todo implement start/stop/reset through filter command injection
  */
-
+#include "config.h"
 #include <float.h>
 #include <math.h>
 #if HAVE_AVX2_EXTERNAL && HAVE_AVX2 && HAVE_FMA3 
